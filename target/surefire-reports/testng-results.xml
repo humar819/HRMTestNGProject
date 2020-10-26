@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-14T19:59:13Z" name="com.qa.orangehrm.tests.LoginPageTest" finished-at="2020-10-14T19:59:21Z" duration-ms="7434">
+    <groups>
+    </groups>
+    <test started-at="2020-10-14T19:59:13Z" name="Command line test" finished-at="2020-10-14T19:59:21Z" duration-ms="7434">
+      <class name="com.qa.orangehrm.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@7a1ebcd8]" started-at="2020-10-14T19:59:13Z" name="setUp" finished-at="2020-10-14T19:59:16Z" duration-ms="3100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:3, instance:com.qa.orangehrm.tests.LoginPageTest@7a1ebcd8]" started-at="2020-10-14T19:59:16Z" name="loginTest" description="login system with valid username and password" finished-at="2020-10-14T19:59:20Z" duration-ms="4238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@7a1ebcd8]" started-at="2020-10-14T19:59:20Z" name="tearDown" finished-at="2020-10-14T19:59:21Z" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.orangehrm.tests.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.qa.orangehrm.tests.LoginPageTest -->
+</testng-results>

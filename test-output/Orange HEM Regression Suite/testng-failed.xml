@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Orange HEM Regression Suite]">
+  <test name="Orange HRM Regression Test">
+    <classes>
+      <class name="com.qa.orangehrm.tests.LoginPageTest">
+        <methods>
+          <include name="verifyLoginPageTitle"/>
+          <include name="verifyForgetPassLink"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.qa.orangehrm.tests.LoginPageTest -->
+      <class name="com.qa.orangehrm.tests.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitle"/>
+          <include name="verifyHomePageHeader"/>
+          <include name="verifyLoggedInUserTest"/>
+          <include name="verifyAuthentication"/>
+        </methods>
+      </class> <!-- com.qa.orangehrm.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Orange HRM Regression Test -->
+</suite> <!-- Failed suite [Orange HEM Regression Suite] -->

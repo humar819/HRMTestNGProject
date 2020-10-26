@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Orange HEM Smoke Suite]">
+  <test name="Orange HRM Smoke Test">
+    <classes>
+      <class name="com.qa.orangehrm.tests.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <exclude name="verifyLoginPageTitle"/>
+          <exclude name="verifyForgetPassLink"/>
+        </methods>
+      </class> <!-- com.qa.orangehrm.tests.LoginPageTest -->
+      <class name="com.qa.orangehrm.tests.HomePageTest">
+        <methods>
+          <include name="verifyLoggedInUserTest"/>
+          <exclude name="verifyHomePageTitle"/>
+          <exclude name="verifyHomePageHeader"/>
+          <exclude name="verifyAuthentication"/>
+        </methods>
+      </class> <!-- com.qa.orangehrm.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Orange HRM Smoke Test -->
+</suite> <!-- Failed suite [Orange HEM Smoke Suite] -->
