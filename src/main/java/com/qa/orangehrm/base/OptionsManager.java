@@ -14,7 +14,7 @@ public class OptionsManager {
 	
 	// Constructor 
 	
-	public OptionsManager(Properties prop){ // because i will use config to manipulate my chrom and firefoxOptions
+	public OptionsManager(Properties prop){ // because i will use config to manipulate my chrome and firefoxOptions
 		this.prop= prop;
 	}
 	

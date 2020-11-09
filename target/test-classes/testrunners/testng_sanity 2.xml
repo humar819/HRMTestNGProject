@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Orange HRM Sanity Suite">
+  <test name="Orange HRM Sanity Test">
+    <classes>
+    
+      <class name="com.qa.orangehrm.tests.LoginPageTest">
+          <methods>
+      
+      <exclude name ="verifyLoginPageTitle"/>
+      <exclude name ="verifyForgetPassLink"/>
+      <include name ="loginTest"/>
+     
+          </methods>
+      </class>
+      
+      <class name="com.qa.orangehrm.tests.HomePageTest">
+      <methods>
+      
+      <exclude name ="verifyHomePageTitle"/>
+      <exclude name ="verifyHomePageHeader"/>
+      <include name ="verifyLoggedInUserTest"/>
+      <exclude name ="verifyAuthentication"/>
+      
+          </methods>
+      
+      
+      </class>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

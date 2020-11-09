@@ -42,14 +42,17 @@ public class LoginPageTest {
 	public void setUp(String browser)  {
 	
 		String browserName = null;
+		
 		basePage = new BasePage();
 		prop = basePage.init_properties();
 		
-		if(browser.equals(null)) {
-		browserName = prop.getProperty("browser");
+		if(browser.equals("null")) {
+			browserName = prop.getProperty("browser");
 		}else {
 			browserName = browser;
 		}
+		
+		
 		
 		driver = basePage.init_driver(browserName);
 		driver.get(prop.getProperty("url"));
@@ -64,10 +67,13 @@ public class LoginPageTest {
 	@Severity(SeverityLevel.NORMAL)
 	
 	public void verifyLoginPageTitle() {
+		
 		log.info("starting title method-----------> verify login page");
+		
 		String title = loginPage.getPageTitle();
 		System.out.println("login page title is "+ title);
 		Assert.assertEquals(title, AppConstants.LOGIN_PAGE_TITLE);
+		
 		log.info("ending title method--------------> verify login page");
 		log.warn("some warning");
 		log.error("some error");
@@ -126,17 +132,15 @@ public class LoginPageTest {
 		Object data [][] = {  {"Hasan", "test123"},
 				              {"Refia", "321test"}, 
 				              {"Richard", "ret123"},
-				              {"Zulqar", "ewr123"}
+				              {"Zulqar", "ewr123"} };
 				           
-				
-				
-				
-		};
+		
+		
 		return data;
 	}
 	
 	
-	@Test(priority=4, dataProvider= "getLoginInvalidData", enabled= false)
+	@Test(priority=4, dataProvider= "getLoginInvalidData", enabled= true)
 	@Description("verify login page title")
 	@Severity(SeverityLevel.MINOR)
 	public void login_InvalidTestCase(String usern, String pwd) {

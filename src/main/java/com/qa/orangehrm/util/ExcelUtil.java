@@ -34,7 +34,9 @@ public class ExcelUtil {
 			+ "/src/main/java/com/qa/orangehrm/testdata/HRMData.xlsx";
 	
 	public static Object[][] getTestData(String sheetName) {
+		
 		try {
+			
 			FileInputStream ip = new FileInputStream(TESTDATA_SHEET_DATA);
 			book = WorkbookFactory.create(ip);
 			sheet = book.getSheet(sheetName);
@@ -45,10 +47,14 @@ public class ExcelUtil {
 				}
 			}
 			return data;
+			
+			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
+			
 		} catch (InvalidFormatException e) {
 			e.printStackTrace();
+			
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

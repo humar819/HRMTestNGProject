@@ -47,7 +47,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Oct 19, 2020 04:51:14 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Nov 4, 2020 04:25:04 PM</span>
 				</a>
 			</li>
 			<li>
@@ -72,7 +72,8 @@
 					<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-										<li class='divider'></li>
+											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
 			</div>
@@ -86,6 +87,7 @@
 				<ul id='category-toggle' class='dropdown-content'>
 					<li><a href='#'>OrangeHRMRegressionSuite</a></li>
 					<li><a href='#'>LoginPageTest</a></li>
+					<li><a href='#'>HomePageTest</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -133,7 +135,7 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>22</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -141,6 +143,20 @@
 			</div>
 		</div>
 		
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Steps</div>
+				<div class='chart-box'>
+					<canvas id='child-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>22</span> step(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
 		
 	</div>
 </div>
@@ -155,14 +171,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>verifyLoginPageTitle</span>
-						<span class='test-time'>Oct 19, 2020 04:51:30 PM</span>
+						<span class='test-time'>Nov 4, 2020 04:25:16 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Oct 19, 2020 04:51:30 PM</span>
-	<span class='label end-time'>Oct 19, 2020 04:51:30 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+11ms</span>
+	<span class='label start-time'>Nov 4, 2020 04:25:16 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:25:51 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 35s+68ms</span>
 </div>
 	<div class='test-desc'>verify page title method </div>
 	<div class='test-attributes'>
@@ -171,21 +187,244 @@
 				<span class='category label white-text'>LoginPageTest</span>
 			</div>
 	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:25:51 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 					</div>
 				</li>
 				
 				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
 					<div class='test-heading'>
-						<span class='test-name'>verifyForgetPassLink</span>
-						<span class='test-time'>Oct 19, 2020 04:51:35 PM</span>
+						<span class='test-name'>verifyLoginPageTitle</span>
+						<span class='test-time'>Nov 4, 2020 04:25:18 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Oct 19, 2020 04:51:35 PM</span>
-	<span class='label end-time'>Oct 19, 2020 04:51:35 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+2ms</span>
+	<span class='label start-time'>Nov 4, 2020 04:25:18 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:26:01 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 43s+744ms</span>
+</div>
+	<div class='test-desc'>verify page title method </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>LoginPageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:26:01 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>verifyHomePageTitle</span>
+						<span class='test-time'>Nov 4, 2020 04:25:19 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:25:19 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:25:41 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 22s+399ms</span>
+</div>
+	<div class='test-desc'>verify home page title </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>HomePageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:25:41 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>verifyHomePageTitle</span>
+						<span class='test-time'>Nov 4, 2020 04:25:19 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:25:19 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:25:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 27s+347ms</span>
+</div>
+	<div class='test-desc'>verify home page title </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>HomePageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:25:46 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>verifyHomePageHeader</span>
+						<span class='test-time'>Nov 4, 2020 04:25:46 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:25:46 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:25:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 10s+607ms</span>
+</div>
+	<div class='test-desc'>verify home page header </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>HomePageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:25:57 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
+					<div class='test-heading'>
+						<span class='test-name'>verifyHomePageHeader</span>
+						<span class='test-time'>Nov 4, 2020 04:25:51 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:25:51 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:26:12 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 20s+559ms</span>
+</div>
+	<div class='test-desc'>verify home page header </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>HomePageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:26:12 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
+					<div class='test-heading'>
+						<span class='test-name'>verifyForgetPassLink</span>
+						<span class='test-time'>Nov 4, 2020 04:25:53 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:25:53 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:26:07 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 13s+528ms</span>
 </div>
 	<div class='test-desc'>verify forget password link is displayed </div>
 	<div class='test-attributes'>
@@ -194,21 +433,121 @@
 				<span class='category label white-text'>LoginPageTest</span>
 			</div>
 	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:26:07 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 					</div>
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
 					<div class='test-heading'>
-						<span class='test-name'>loginTest</span>
-						<span class='test-time'>Oct 19, 2020 04:51:40 PM</span>
+						<span class='test-name'>verifyLoggedInUserTest</span>
+						<span class='test-time'>Nov 4, 2020 04:26:02 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Oct 19, 2020 04:51:40 PM</span>
-	<span class='label end-time'>Oct 19, 2020 04:51:40 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+	<span class='label start-time'>Nov 4, 2020 04:26:02 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:26:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 24s+729ms</span>
+</div>
+	<div class='test-desc'>verify account name method </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>HomePageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:26:27 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
+					<div class='test-heading'>
+						<span class='test-name'>verifyForgetPassLink</span>
+						<span class='test-time'>Nov 4, 2020 04:26:06 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:26:06 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:26:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 16s+129ms</span>
+</div>
+	<div class='test-desc'>verify forget password link is displayed </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>LoginPageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:26:22 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
+					<div class='test-heading'>
+						<span class='test-name'>loginTest</span>
+						<span class='test-time'>Nov 4, 2020 04:26:09 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:26:09 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:26:20 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 10s+961ms</span>
 </div>
 	<div class='test-desc'>login system with valid username and password </div>
 	<div class='test-attributes'>
@@ -216,6 +555,508 @@
 				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
 				<span class='category label white-text'>LoginPageTest</span>
 			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:26:20 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='11'>
+					<div class='test-heading'>
+						<span class='test-name'>verifyLoggedInUserTest</span>
+						<span class='test-time'>Nov 4, 2020 04:26:17 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:26:17 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:26:37 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 20s+27ms</span>
+</div>
+	<div class='test-desc'>verify account name method </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>HomePageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:26:37 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='12'>
+					<div class='test-heading'>
+						<span class='test-name'>login_InvalidTestCase</span>
+						<span class='test-time'>Nov 4, 2020 04:26:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:26:22 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:26:34 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+415ms</span>
+</div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>LoginPageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:26:34 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='13'>
+					<div class='test-heading'>
+						<span class='test-name'>loginTest</span>
+						<span class='test-time'>Nov 4, 2020 04:26:27 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:26:27 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:26:55 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 28s+227ms</span>
+</div>
+	<div class='test-desc'>login system with valid username and password </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>LoginPageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:26:55 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='14'>
+					<div class='test-heading'>
+						<span class='test-name'>verifyAuthentication</span>
+						<span class='test-time'>Nov 4, 2020 04:26:32 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:26:32 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:26:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 14s+750ms</span>
+</div>
+	<div class='test-desc'>verify page URL </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>HomePageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:26:46 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='15'>
+					<div class='test-heading'>
+						<span class='test-name'>login_InvalidTestCase</span>
+						<span class='test-time'>Nov 4, 2020 04:26:36 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:26:36 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:26:44 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+920ms</span>
+</div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>LoginPageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:26:44 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='16'>
+					<div class='test-heading'>
+						<span class='test-name'>verifyAuthentication</span>
+						<span class='test-time'>Nov 4, 2020 04:26:42 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:26:42 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:27:01 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 19s+580ms</span>
+</div>
+	<div class='test-desc'>verify page URL </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>HomePageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:27:01 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='17'>
+					<div class='test-heading'>
+						<span class='test-name'>login_InvalidTestCase</span>
+						<span class='test-time'>Nov 4, 2020 04:26:46 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:26:46 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:26:59 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 12s+845ms</span>
+</div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>LoginPageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:26:59 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='18'>
+					<div class='test-heading'>
+						<span class='test-name'>login_InvalidTestCase</span>
+						<span class='test-time'>Nov 4, 2020 04:26:59 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:26:59 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:27:14 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 14s+385ms</span>
+</div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>LoginPageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:27:14 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='19'>
+					<div class='test-heading'>
+						<span class='test-name'>login_InvalidTestCase</span>
+						<span class='test-time'>Nov 4, 2020 04:27:01 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:27:01 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:27:09 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+223ms</span>
+</div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>LoginPageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:27:09 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='20'>
+					<div class='test-heading'>
+						<span class='test-name'>login_InvalidTestCase</span>
+						<span class='test-time'>Nov 4, 2020 04:27:18 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:27:18 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:27:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+320ms</span>
+</div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>LoginPageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:27:26 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='21'>
+					<div class='test-heading'>
+						<span class='test-name'>login_InvalidTestCase</span>
+						<span class='test-time'>Nov 4, 2020 04:27:30 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:27:30 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:27:37 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+314ms</span>
+</div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>LoginPageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:27:37 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='22'>
+					<div class='test-heading'>
+						<span class='test-name'>login_InvalidTestCase</span>
+						<span class='test-time'>Nov 4, 2020 04:27:41 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 4, 2020 04:27:41 PM</span>
+	<span class='label end-time'>Nov 4, 2020 04:27:49 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+267ms</span>
+</div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>OrangeHRMRegressionSuite</span>
+				<span class='category label white-text'>LoginPageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:27:49 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
 					</div>
 				</li>
@@ -273,12 +1114,12 @@
 					<div class='category-heading'>
 						<span class='category-name'>OrangeHRMRegressionSuite</span>
 						<span class='category-status right'>
-							<span class='label pass'>3</span>
+							<span class='label pass'>22</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 3</span>
+							<span class='label green accent-4 white-text'>Passed: 22</span>
 							
 							
 						</div>
@@ -294,18 +1135,113 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 19, 2020 04:51:30 PM</td>
+										<td>Nov 4, 2020 04:25:16 PM</td>
 										<td class='linked' test-id='1'>verifyLoginPageTitle</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Oct 19, 2020 04:51:35 PM</td>
-										<td class='linked' test-id='2'>verifyForgetPassLink</td>
+										<td>Nov 4, 2020 04:25:18 PM</td>
+										<td class='linked' test-id='2'>verifyLoginPageTitle</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Oct 19, 2020 04:51:40 PM</td>
-										<td class='linked' test-id='3'>loginTest</td>
+										<td>Nov 4, 2020 04:25:19 PM</td>
+										<td class='linked' test-id='3'>verifyHomePageTitle</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:25:19 PM</td>
+										<td class='linked' test-id='4'>verifyHomePageTitle</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:25:46 PM</td>
+										<td class='linked' test-id='5'>verifyHomePageHeader</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:25:51 PM</td>
+										<td class='linked' test-id='6'>verifyHomePageHeader</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:25:53 PM</td>
+										<td class='linked' test-id='7'>verifyForgetPassLink</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:02 PM</td>
+										<td class='linked' test-id='8'>verifyLoggedInUserTest</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:06 PM</td>
+										<td class='linked' test-id='9'>verifyForgetPassLink</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:09 PM</td>
+										<td class='linked' test-id='10'>loginTest</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:17 PM</td>
+										<td class='linked' test-id='11'>verifyLoggedInUserTest</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:22 PM</td>
+										<td class='linked' test-id='12'>login_InvalidTestCase</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:27 PM</td>
+										<td class='linked' test-id='13'>loginTest</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:32 PM</td>
+										<td class='linked' test-id='14'>verifyAuthentication</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:36 PM</td>
+										<td class='linked' test-id='15'>login_InvalidTestCase</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:42 PM</td>
+										<td class='linked' test-id='16'>verifyAuthentication</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:46 PM</td>
+										<td class='linked' test-id='17'>login_InvalidTestCase</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:59 PM</td>
+										<td class='linked' test-id='18'>login_InvalidTestCase</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:27:01 PM</td>
+										<td class='linked' test-id='19'>login_InvalidTestCase</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:27:18 PM</td>
+										<td class='linked' test-id='20'>login_InvalidTestCase</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:27:30 PM</td>
+										<td class='linked' test-id='21'>login_InvalidTestCase</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:27:41 PM</td>
+										<td class='linked' test-id='22'>login_InvalidTestCase</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -317,12 +1253,12 @@
 					<div class='category-heading'>
 						<span class='category-name'>LoginPageTest</span>
 						<span class='category-status right'>
-							<span class='label pass'>3</span>
+							<span class='label pass'>14</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 3</span>
+							<span class='label green accent-4 white-text'>Passed: 14</span>
 							
 							
 						</div>
@@ -338,18 +1274,142 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 19, 2020 04:51:30 PM</td>
+										<td>Nov 4, 2020 04:25:16 PM</td>
 										<td class='linked' test-id='1'>verifyLoginPageTitle</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Oct 19, 2020 04:51:35 PM</td>
-										<td class='linked' test-id='2'>verifyForgetPassLink</td>
+										<td>Nov 4, 2020 04:25:18 PM</td>
+										<td class='linked' test-id='2'>verifyLoginPageTitle</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Oct 19, 2020 04:51:40 PM</td>
-										<td class='linked' test-id='3'>loginTest</td>
+										<td>Nov 4, 2020 04:25:53 PM</td>
+										<td class='linked' test-id='7'>verifyForgetPassLink</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:06 PM</td>
+										<td class='linked' test-id='9'>verifyForgetPassLink</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:09 PM</td>
+										<td class='linked' test-id='10'>loginTest</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:22 PM</td>
+										<td class='linked' test-id='12'>login_InvalidTestCase</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:27 PM</td>
+										<td class='linked' test-id='13'>loginTest</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:36 PM</td>
+										<td class='linked' test-id='15'>login_InvalidTestCase</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:46 PM</td>
+										<td class='linked' test-id='17'>login_InvalidTestCase</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:59 PM</td>
+										<td class='linked' test-id='18'>login_InvalidTestCase</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:27:01 PM</td>
+										<td class='linked' test-id='19'>login_InvalidTestCase</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:27:18 PM</td>
+										<td class='linked' test-id='20'>login_InvalidTestCase</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:27:30 PM</td>
+										<td class='linked' test-id='21'>login_InvalidTestCase</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:27:41 PM</td>
+										<td class='linked' test-id='22'>login_InvalidTestCase</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>HomePageTest</span>
+						<span class='category-status right'>
+							<span class='label pass'>8</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span class='label green accent-4 white-text'>Passed: 8</span>
+							
+							
+						</div>
+					
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 4, 2020 04:25:19 PM</td>
+										<td class='linked' test-id='3'>verifyHomePageTitle</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:25:19 PM</td>
+										<td class='linked' test-id='4'>verifyHomePageTitle</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:25:46 PM</td>
+										<td class='linked' test-id='5'>verifyHomePageHeader</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:25:51 PM</td>
+										<td class='linked' test-id='6'>verifyHomePageHeader</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:02 PM</td>
+										<td class='linked' test-id='8'>verifyLoggedInUserTest</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:17 PM</td>
+										<td class='linked' test-id='11'>verifyLoggedInUserTest</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:32 PM</td>
+										<td class='linked' test-id='14'>verifyAuthentication</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 4, 2020 04:26:42 PM</td>
+										<td class='linked' test-id='16'>verifyAuthentication</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -378,31 +1438,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>22</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>0</div>
+					<div class='panel-lead'>22</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Oct 19, 2020 04:51:14 PM</div>
+					<div class='panel-lead'>Nov 4, 2020 04:25:04 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Oct 19, 2020 04:51:50 PM</div>
+			 		<div class='panel-lead'>Nov 4, 2020 04:27:54 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 35s+684ms</div>
+					<div class='panel-lead'>0h 2m 49s+692ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -419,7 +1479,7 @@
 						</tr>
 						<tr>
 							<td>OrangeHRMRegressionSuite</td>
-							<td>3</td>
+							<td>22</td>
 							<td>0</td>
 							<td>0</td>
 							<td>
@@ -428,7 +1488,16 @@
 						</tr>
 						<tr>
 							<td>LoginPageTest</td>
-							<td>3</td>
+							<td>14</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									100%
+							</td>
+						</tr>
+						<tr>
+							<td>HomePageTest</td>
+							<td>8</td>
 							<td>0</td>
 							<td>0</td>
 							<td>
@@ -448,7 +1517,7 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 3,
+				passParent: 22,
 				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
@@ -456,7 +1525,7 @@
 				skipParent: 0,
 				exceptionsParent: 0,
 				
-				passChild: 0,
+				passChild: 22,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,

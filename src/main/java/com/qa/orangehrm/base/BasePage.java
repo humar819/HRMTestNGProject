@@ -27,7 +27,7 @@ public static synchronized WebDriver getDriver(){
 }
 
 
-	public WebDriver init_driver(String browserName) {
+public WebDriver init_driver(String browserName) {
 		
 		highlightElement = prop.getProperty("highlight").equals("yes") ? true : false;
 		
@@ -69,29 +69,15 @@ public static synchronized WebDriver getDriver(){
 	
 	
 	
-	public Properties init_properties() {
+public Properties init_properties() {
 		
 		prop = new Properties();
 		
-		String path = null;
-		String env = null;
+		String path = "/Users/dilhumarablet/Documents/workspace/OrganeHRMPlatform_C4"
+				+ "/src/main/java/com/qa/oranghrm/config/config.properties";
 		
 		try {
-			env = System.getProperty("env");
 			
-			if(env.equals("qa")){
-				path =".src/main/java/com/qa/oranghrm/config/config.qa.properities";
-				
-			}else if(env.equals("stg")){
-				path ="./src/main/java/com/qa/oranghrm/config/config.stg.properities";
-			}
-			
-		} catch (Exception e) {
-			path ="./src/main/java/com/qa/oranghrm/config/config.properties";
-		}
-		
-		
-		try {
 			FileInputStream ip = new FileInputStream(path);
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
